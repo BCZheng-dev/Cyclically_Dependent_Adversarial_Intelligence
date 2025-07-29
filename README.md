@@ -31,7 +31,7 @@ Leveraging the inherent properties of GANs, the system evolves into an asymmetri
 ---
 
 ### **Technical Advantages**
-- **Autonomous Learning**: The system evolves without explicit supervision, driven by adversarial dialogue.  
+- **Autonomous Learning**: Unlike ordinary Generative AI, the system is driven by adversarial dialogue.  
 - **Intent Alignment**: The prompt transformation layer ensures user needs are accurately understood.  
 - **Scalability**: The asymmetric structure allows for efficient specialization and resource allocation.  
 
