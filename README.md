@@ -16,8 +16,8 @@ of GANs, the system evolves into an asymmetric dual-network model capable of aut
 
 ## **Core Architecture**  
 Two interacting GAN pairs with cross-network feedback:
-1. **Prompt-Alignment GAN**: Translates user intent → shared latent space  
-2. **Evolutionary GAN**: Generates solutions conditioned on aligned prompts  
+1. **Prompt-Alignment module**: Translates user intent → shared latent space  
+2. **Evolutionary GANs**: Generates solutions conditioned on aligned prompts  
 3. **Cyclic Feedback**: Outputs re-enter opposing networks as adversarial inputs  
 
 
