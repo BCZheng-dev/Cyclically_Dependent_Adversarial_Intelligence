@@ -50,7 +50,7 @@ Two interacting GAN pairs with cross-network feedback:
 
 ### **Challenges**
 - ***No Suitable GAN Modules***:Current GAN architectures lack bidirectional cyclic training protocols required for this framework. Novel adversarial paradigms (e.g., cross-network gradient propagation) remain theoretical.
-- ***The Underlying Ethical Issues***:When it is able to evolute itslef, will it be beyond human control? And we assume a Control mechanisms: Gradient isolation layers + Human-in-the-loop evolution triggers.
+- ***The Underlying Ethical Issues***:When it is able to evolute itslef, will it be beyond human control? And we assume a control mechanisms: human-in-the-loop evolution triggers.
 
 ---
 
