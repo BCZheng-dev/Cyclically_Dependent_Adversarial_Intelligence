@@ -17,7 +17,7 @@ of GANs, the system evolves into an asymmetric dual-network model capable of aut
                                     |----module----|
                |--------------------|   (GAN)      |--------------------|
                |                    |----module----|                    |
-   Prompt Transformation Layer                           Prompt Transformation Layer
+   |Prompt Transformation Layer|                           |Prompt Transformation Layer|
                |                    |----module----|                    |
                |--------------------|   (GAN)      |--------------------|
                                     |----module----|
