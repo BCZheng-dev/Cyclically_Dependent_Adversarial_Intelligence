@@ -13,12 +13,19 @@ of GANs, the system evolves into an asymmetric dual-network model capable of aut
 
 
 **The core is just like this**
+
                                     |----module----|
+                                    
                |--------------------|   (GAN)      |--------------------|
+               
                |                    |----module----|                    |
+               
    Prompt Transformation Layer                           Prompt Transformation Layer
+   
                |                    |----module----|                    |
+               
                |--------------------|   (GAN)      |--------------------|
+               
                                     |----module----|
 
 ### **Key Features of the System**
