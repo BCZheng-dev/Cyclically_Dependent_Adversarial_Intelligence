@@ -11,6 +11,8 @@ enabling them to clearly understand and align with user intentions. Due to their
 engage in continuous dialogue, fostering a persistent "stream of consciousness." Leveraging the inherent properties 
 of GANs, the system evolves into an asymmetric dual-network model capable of autonomous learning and adaptation.
 
+*Inspired by Nested GANs (Li et al. 2017)*
+
 
 ## **Core Architecture**  
 Two interacting GAN pairs with cross-network feedback:
