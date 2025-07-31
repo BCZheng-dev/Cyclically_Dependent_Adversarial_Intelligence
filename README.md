@@ -5,11 +5,21 @@
 
 **Inspiration for a "True" Artificial Intelligence System**  
 To make AI equipped with wisdom, not just intelligence, we assume a novel architecture based on two cyclically 
-dependent adversarial neural networks (GANs). These networks interact through a specialized prompt transformation 
-mechanism, enabling them to clearly understand and align with user intentions. Due to their cyclic dependency, 
-the two GANs engage in continuous dialogue, fostering a persistent "stream of consciousness." 
-Leveraging the inherent properties of GANs, the system evolves into an asymmetric dual-network model capable of autonomous learning and adaptation.
+dependent adversarial neural networks (GANs), including four modules, which devided in two gruops: each group 
+is a completed GAN network. These networks interact through a specialized prompt transformation mechanism, 
+enabling them to clearly understand and align with user intentions. Due to their cyclic dependency, the two GANs 
+engage in continuous dialogue, fostering a persistent "stream of consciousness." Leveraging the inherent properties 
+of GANs, the system evolves into an asymmetric dual-network model capable of autonomous learning and adaptation.
 
+
+**The core is just like this**
+                                    |----module----|
+               |--------------------|   (GAN)      |--------------------|
+               |                    |----module----|                    |
+   Prompt Transformation Layer                           Prompt Transformation Layer
+               |                    |----module----|                    |
+               |--------------------|   (GAN)      |--------------------|
+                                    |----module----|
 
 ### **Key Features of the System**
 **1. Cyclic Dependency:**
@@ -51,4 +61,4 @@ Leveraging the inherent properties of GANs, the system evolves into an asymmetri
 ---
 This concept combines cutting-edge ideas in adversarial learning, prompt engineering, and cognitive modeling.
 
-*cooperate: BCZheng-dev(Brendan C. Z.), swhitegx*
+Collaborators: [@BCZheng-dev](https://github.com/BCZheng-dev) (Brendan C. Z.), [@swhitegx](https://github.com/swhitegx)
