@@ -1,26 +1,22 @@
-# **Cyclicly Dependent Artificial Intelligence: Self-evolution**
-*just an assumption, because we're unable to make it realized*
+# **Cyclically Dependent Adversarial Intelligence: A Framework for Self-Evolving AI**  
+*Theoretical research proposal*
 
 ---
 
 **Inspiration for a "True" Artificial Intelligence System**  
-To make AI equipped with wisdom, not just intelligence, we assume a novel architecture based on two cyclically 
-dependent adversarial neural networks (GANs), including four modules, which devided in two gruops: each group 
+"To make AI equipped with wisdom, not just intelligence", we assume a novel architecture based on two cyclically 
+dependent adversarial neural networks (GANs), including four modules, which divided in two gruops: each group 
 is a completed GAN network. These networks interact through a specialized prompt transformation mechanism, 
 enabling them to clearly understand and align with user intentions. Due to their cyclic dependency, the two GANs 
 engage in continuous dialogue, fostering a persistent "stream of consciousness." Leveraging the inherent properties 
 of GANs, the system evolves into an asymmetric dual-network model capable of autonomous learning and adaptation.
 
 
-**The core is just like this**
-
-                                    |----module----|
-               |--------------------|   (GAN)      |--------------------|
-               |                    |----module----|                    |
-   |Prompt Transformation Layer|                           |Prompt Transformation Layer|
-               |                    |----module----|                    |
-               |--------------------|   (GAN)      |--------------------|
-                                    |----module----|
+## **Core Architecture**  
+Two interacting GAN pairs with cross-network feedback:
+1. **Prompt-Alignment GAN**: Translates user intent → shared latent space  
+2. **Evolutionary GAN**: Generates solutions conditioned on aligned prompts  
+3. **Cyclic Feedback**: Outputs re-enter opposing networks as adversarial inputs  
 
 ### **Key Features of the System**
 **1. Cyclic Dependency:**
@@ -33,11 +29,19 @@ of GANs, the system evolves into an asymmetric dual-network model capable of aut
 
 **3. Asymmetric Evolution:**
    - Over time, the two GANs develop distinct functional specializations.  
-   - Mimics the division of labor observed in biological systems (e.g., left-brain/right-brain).  
+   - Mimics the division of labor observed in biological systems (e.g., left-brain/right-brain).
+   - Exactly, the two module can be different, e.g., loss functions, architecture divergence
 
-**4. Persistent Consciousness:**
+**4. Continuous adversarial refinement enables emergent behavioral complexity:**
    - The cyclic interaction generates a self-sustaining "stream of thought."  
-   - External memory modules enhance long-term coherence and context retention.  
+   - External memory modules enhance long-term coherence and context retention.
+
+
+### Proposed Module Functions
+| Module                | Responsibility          |
+|-----------------------|-------------------------|
+| **Intent Interpreter**| Embed prompts in shared latent space |
+| **Feedback Aggregator**| Fuse adversarial outputs into training signals |
 
 ---
 
@@ -49,8 +53,8 @@ of GANs, the system evolves into an asymmetric dual-network model capable of aut
 ---
 
 ### **Challenges**
-- ***No Suitable GAN Modules***:This is mainly why we're unable to realize it.
-- ***The Underlying Ethical Issues***:When it is able to evolute itslef, will it be beyond human control?
+- ***No Suitable GAN Modules***:Current GAN architectures lack bidirectional cyclic training protocols required for this framework. Novel adversarial paradigms (e.g., cross-network gradient propagation) remain theoretical.
+- ***The Underlying Ethical Issues***:When it is able to evolute itslef, will it be beyond human control? And we assume a Control mechanisms: Gradient isolation layers + Human-in-the-loop evolution triggers.
 
 ---
 
