@@ -1,4 +1,4 @@
-# **Cyclically Dependent Adversarial Intelligence: A Framework for Self-Evolving AI**  
+# **Cyclically Dependent Artificial Intelligence: A Framework for Self-Evolving AI**  
 *Theoretical research proposal*
 
 ---
