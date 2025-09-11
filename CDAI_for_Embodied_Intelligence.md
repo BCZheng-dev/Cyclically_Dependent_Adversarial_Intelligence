@@ -1,4 +1,5 @@
 # This is a possible version of Cyclically Dependent Artificial Intelligence for embodied intelligence
+*just possible*
 by Brendan C. Z.
 
 ---
